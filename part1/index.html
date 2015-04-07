@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-6 col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <form>
                         <input type="hidden" name="id">
                         <div class="form-group">
@@ -31,10 +31,12 @@
                             <label for="total-page">Кол-во страниц</label>
                             <input type="number" class="form-control" id="total-page" name="total-page" placeholder="Кол-во страниц">
                         </div>
-                        <button type="button" class="btn btn-default add">add</button>
+                        <button type="button" class="btn btn-default add">save</button>
                     </form>
                 </div>
-                <div class="col-xs-6 col-md-6">
+                <br>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-sm-6 col-md-6">
                     <table class="table table-bordered list">
                         <thead>
                             <tr>
@@ -44,14 +46,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <button type="button" class="btn btn-default edit">edit</button>
-                                    <button type="button" class="btn btn-default remove">remove</button>
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
