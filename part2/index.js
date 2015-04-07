@@ -2,8 +2,7 @@
  * Module dependencies.
  */
 
-var express = require('express'),
-    fs = require('fs');
+var express = require('express');
 
 /**
  * Create Express server.
